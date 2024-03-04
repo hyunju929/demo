@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1 class="text_h1">글자를 클릭하면 초록색으로 변경</h1>
-<h4 class="text_h2">글자를 클릭하면 노란색으로 변경</h4>
+<h4 class="text_h2">글자를 클릭하면 주황색으로 변경</h4>
 
 <h3>배경색과 글자색 변경</h3>
 <input type="button" value="Black" onclick="
@@ -27,12 +27,12 @@
 <script>
     var text_h1 = document.querySelector('.text_h1');
     text_h1.onclick = function () {
-        text_h1.style.color = 'purple';
+        text_h1.style.color = 'green';
     };
 
     var text_h2 = document.querySelector('.text_h2');
     text_h2.onclick = function () {
-        text_h2.style.color = 'pink';
+        text_h2.style.color = 'orange';
     };
 </script>
 </html>
