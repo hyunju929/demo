@@ -27,12 +27,12 @@
 <script>
     var text_h1 = document.querySelector('.text_h1');
     text_h1.onclick = function () {
-        text_h1.style.color = 'green';
+        text_h1.style.color = 'purple';
     };
 
     var text_h2 = document.querySelector('.text_h2');
     text_h2.onclick = function () {
-        text_h2.style.color = 'yellow';
+        text_h2.style.color = 'pink';
     };
 </script>
 </html>
