@@ -7,18 +7,18 @@
     <title>Example</title>
 </head>
 <body>
-<h1 class="text_h1">±ÛÀÚ¸¦ Å¬¸¯ÇÏ¸é »¡°£»öÀ¸·Î º¯°æ</h1>
-<h4 class="text_h2">±ÛÀÚ¸¦ Å¬¸¯ÇÏ¸é ÆÄ¶õ»öÀ¸·Î º¯°æ</h4>
+<h1 class="text_h1">ê¸€ìžë¥¼ í´ë¦­í•˜ë©´ ì´ˆë¡ìƒ‰ìœ¼ë¡œ ë³€ê²½</h1>
+<h4 class="text_h2">ê¸€ìžë¥¼ í´ë¦­í•˜ë©´ íŒŒëž€ìƒ‰ìœ¼ë¡œ ë³€ê²½</h4>
 
-<h3>¹è°æ»ö°ú ±ÛÀÚ»ö º¯°æ</h3>
+<h3>ë°°ê²½ìƒ‰ê³¼ ê¸€ìžìƒ‰ ë³€ê²½</h3>
 <input type="button" value="Black" onclick="
-    alert('¾îµÎ¿î È­¸éÀ¸·Î º¯ÇÕ´Ï´Ù.');
+    alert('ì–´ë‘ìš´ í™”ë©´ìœ¼ë¡œ ë³€í•©ë‹ˆë‹¤.');
     document.querySelector('body').style.backgroundColor='black';
     document.querySelector('body').style.color='white';
     ">
 
 <input type="button" value="White" onclick="
-    alert('¹àÀº È­¸éÀ¸·Î º¯ÇÕ´Ï´Ù.');
+    alert('ë°ì€ í™”ë©´ìœ¼ë¡œ ë³€í•©ë‹ˆë‹¤.');
     document.querySelector('body').style.backgroundColor='white';
     document.querySelector('body').style.color='black';
     ">
@@ -27,7 +27,7 @@
 <script>
     var text_h1 = document.querySelector('.text_h1');
     text_h1.onclick = function () {
-        text_h1.style.color = 'red';
+        text_h1.style.color = 'green';
     };
 
     var text_h2 = document.querySelector('.text_h2');
